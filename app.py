@@ -24,6 +24,7 @@ st.sidebar.header("Portfolio Settings")
 
 # Ticker input
 default_tickers = "AAPL, MSFT, GOOGL, JPM, GS"
+tickers_input = st.sidebar.text_input("Enter tickers (comma separated)", default_tickers)
 tickers = [t.strip().upper() for t in tickers_input.split(',')]
 
 # Date range
