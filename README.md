@@ -28,7 +28,7 @@ CVaR (Conditional VaR) goes further and calculates the expected loss given that 
 
 ## Why Monte Carlo over Parametric?
 
-Parametric VaR assumes returns are normally distributed, which underestimates tail risk. Real markets have fat tails - crashes happen more often than normal distributions predict. Monte Carlo doesn't assume any distribution, so it captures these extreme events better.
+Parametric VaR assumes returns are normally distributed, which underestimates tail risk. Real markets have fat tails: crashes happen more often than normal distributions predict. Monte Carlo doesn't assume any distribution, so it captures these extreme events better.
 
 ## Features
 
